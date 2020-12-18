@@ -12,7 +12,7 @@ public class RegistrationTest {
 public void setUp(){
       wd= new ChromeDriver();
       wd.get("https://google.com");
-      wd.get("https://google.com");
+    
   }
     @Test
 public void testRegistration(){
